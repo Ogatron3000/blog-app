@@ -6,7 +6,7 @@
   "scripts": {
     "start": "cross-env NODE_ENV=production node index.js",
     "dev": "cross-env NODE_ENV=development nodemon index.js",
-    "test": "cross-env NODE_ENV=test jest --verbose --runInBand",
+    "test": "cross-env NODE_ENV=test jest --verbose --runInBand -- blog_api",
     "start:test": "cross-env NODE_ENV=test nodemon index.js"
   },
   "author": "Ivan Mijanovic",
@@ -26,7 +26,7 @@
     "mongoose-unique-validator": "^2.0.3"
   },
   "devDependencies": {
-    "jest": "^26.1.0",
+    "jest": "^24.9.0",
     "nodemon": "^2.0.4",
     "supertest": "^4.0.2"
   },

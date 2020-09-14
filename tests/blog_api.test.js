@@ -46,7 +46,7 @@ describe('new user', () => {
             .expect(200)
             .expect('Content-Type', /application\/json/)
 
-        expect(result.body.username).toBe('ingleze')
+        expect(result.body.message).toBe('registration successful, check your inbox for verification email')
 
         const usersAfter = await api
             .get('/api/users')
@@ -155,11 +155,13 @@ describe('new user', () => {
             })
 
             test('token can be revoked - user can logout', async () => {
+                const jwtToken = await helper.signToken('rooting')
                 const { id } = await User.findOne({ username: 'rooting' })
                 const { token } = await RefreshToken.findOne({ user: id })
 
                 const result = await api
                     .post('/api/users/revoke-token')
+                    .set('Authorization', `bearer ${jwtToken}`)
                     .set('Cookie', [`refreshToken=${token}`])
                     .expect(200)
                     .expect('Content-Type', /application\/json/)
@@ -168,8 +170,11 @@ describe('new user', () => {
             })
 
             test('we get 400 without refresh token cookie', async () => {
+                const token = await helper.signToken('rooting')
+
                 const result1 = await api
                     .post('/api/users/refresh-token')
+                    .set('Authorization', `bearer ${token}`)
                     .expect(400)
                     .expect('Content-Type', /application\/json/)
 
@@ -177,6 +182,7 @@ describe('new user', () => {
 
                 const result2 = await api
                     .post('/api/users/revoke-token')
+                    .set('Authorization', `bearer ${token}`)
                     .expect(400)
                     .expect('Content-Type', /application\/json/)
 

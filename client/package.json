@@ -6,7 +6,6 @@
     "@hookform/resolvers": "^0.1.0",
     "axios": "^0.19.2",
     "history": "^4.6.3",
-    "mutationobserver-shim": "^0.3.7",
     "prop-types": "^15.7.2",
     "query-string": "^6.13.1",
     "react": "^16.12.0",
@@ -46,12 +45,8 @@
   },
   "proxy": "http://localhost:4000",
   "devDependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
     "cypress": "^4.11.0",
     "eslint-plugin-cypress": "^2.11.1",
-    "eslint-plugin-jest": "^23.19.0",
     "mailslurp-client": "^8.7.8",
     "redux-devtools-extension": "^2.13.8"
   }
