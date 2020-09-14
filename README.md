@@ -1,28 +1,28 @@
 # blog-app
 
-Blog app that I made as my first MERN stack project.
+Blog app that I made as my first MERN (MongoDB, Express, React and Node) stack project.
 
 ## Built With
 
 ### Frontend
 
 * React
-* Redux
-* React Router
-* React Hook Form + Yup
-* React Bootstrap
+* Redux - state managment
+* React Router - routing
+* React Hook Form + Yup - forms and form validation
+* React Bootstrap - UI
 
 ### Backend - Node.js
 
 * Express
 * Mongoose
-* JWT
-* Sendgrid
+* JWT - authentication
+* Sendgrid - email service
 
 ### Testing
 
-* Cypress
-* Jest
+* Cypress - B2B testing
+* Jest - Backend testing
 
 ## Installation
 
