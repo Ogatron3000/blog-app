@@ -10,7 +10,7 @@ Username: zukohere
 
 Password: mei123
 
-![login] (https://github.com/Ogatron3000/blog-app/blob/master/demo/login.png)
+![login](https://github.com/Ogatron3000/blog-app/blob/master/demo/login.png)
 
 ## Built With
 
