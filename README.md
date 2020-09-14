@@ -6,10 +6,6 @@ Blog app that I made as my first MERN (MongoDB, Express, React and Node) stack p
 
 https://young-sands-26516.herokuapp.com/login
 
-Username: zukohere
-
-Password: mei123
-
 ![login](https://github.com/Ogatron3000/blog-app/blob/master/demo/login.png)
 ![register](https://github.com/Ogatron3000/blog-app/blob/master/demo/register.png)
 ![blog-list](https://github.com/Ogatron3000/blog-app/blob/master/demo/blog-list.png)
