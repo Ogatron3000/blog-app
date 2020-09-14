@@ -35,6 +35,14 @@ https://young-sands-26516.herokuapp.com/login
 * Cypress - B2B testing
 * Jest - Backend testing
 
+## Features
+
+* Post, like, comment, delete blogs
+* View blogs and blog details
+* View users and user details
+* Email verification
+* Password reset
+
 ## Installation
 
 This project requires [node](http://nodejs.org) and [npm](https://npmjs.com) installed globally. 
