@@ -10,6 +10,8 @@ Username: zukohere
 
 Password: mei123
 
+![App Demo](https://github.com/Ogatron3000/blog-app/blob/master/demo.mp4)
+
 ## Built With
 
 ### Frontend
