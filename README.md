@@ -37,11 +37,11 @@ https://young-sands-26516.herokuapp.com/login
 
 ## Features
 
-* View blogs blog details
 * Post, like, comment, delete blogs
+* View blogs and blog details
 * View users and user details
 * Email verification
-* Reset password
+* Password reset
 
 ## Installation
 
