@@ -10,8 +10,6 @@ Username: zukohere
 
 Password: mei123
 
-![App Demo](https://github.com/Ogatron3000/blog-app/blob/master/Screenshot_2020-09-08%20Untitled%20Diagram%20-%20diagrams%20net.png)
-
 ## Built With
 
 ### Frontend
