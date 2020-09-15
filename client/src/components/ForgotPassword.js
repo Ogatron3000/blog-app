@@ -7,7 +7,8 @@ import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers'
 import { forgotPasswordSchema } from '../helpers/yupSchemas'
 
-import { Form, Button } from 'react-bootstrap'
+import Form from 'react-bootstrap/Form'
+import Button from 'react-bootstrap/Button'
 
 import Alert from './Alert'
 

@@ -7,7 +7,11 @@ import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers'
 import { commentSchema } from '../helpers/yupSchemas'
 
-import { Form, Button, ListGroup, Card, Spinner } from 'react-bootstrap'
+import Form from 'react-bootstrap/Form'
+import Button from 'react-bootstrap/Button'
+import ListGroup from 'react-bootstrap/ListGroup'
+import Card from 'react-bootstrap/Card'
+import Spinner from 'react-bootstrap/Spinner'
 import { FaThumbsUp } from 'react-icons/fa'
 
 import DeleteWindow from './DeleteWindow'

@@ -4,7 +4,9 @@ import { verifyEmailAction } from '../actions/userActions'
 import { Link } from 'react-router-dom'
 import queryString from 'query-string'
 
-import { Spinner, Card, Button } from 'react-bootstrap'
+import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
+import Spinner from 'react-bootstrap/Spinner'
 
 const VerifyEmail = ({ history, location }) => {
 	const verification = useSelector(state => state.login)

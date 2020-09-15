@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 
-import { ListGroup } from 'react-bootstrap'
+import ListGroup from 'react-bootstrap/ListGroup'
 import BlogForm from './BlogForm'
 
 const BlogList = () => {

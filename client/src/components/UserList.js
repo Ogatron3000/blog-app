@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 
-import { Table } from 'react-bootstrap'
+import Table from 'react-bootstrap/Table'
 
 const UserList = () => {
 	const users = useSelector(state => state.users)

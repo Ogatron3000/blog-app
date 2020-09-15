@@ -6,7 +6,9 @@ import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers'
 import { blogSchema } from '../helpers/yupSchemas'
 
-import { Form, Button, Spinner } from 'react-bootstrap'
+import Form from 'react-bootstrap/Form'
+import Button from 'react-bootstrap/Button'
+import Spinner from 'react-bootstrap/Spinner'
 
 const BlogForm = () => {
     // form

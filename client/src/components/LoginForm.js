@@ -7,7 +7,10 @@ import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers'
 import { loginSchema } from '../helpers/yupSchemas'
 
-import { Form, Button, InputGroup, Spinner } from 'react-bootstrap'
+import Form from 'react-bootstrap/Form'
+import Button from 'react-bootstrap/Button'
+import InputGroup from 'react-bootstrap/InputGroup'
+import Spinner from 'react-bootstrap/Spinner'
 import { FaEye, FaEyeSlash } from 'react-icons/fa'
 
 import Alert from './Alert'

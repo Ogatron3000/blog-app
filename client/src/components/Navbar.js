@@ -3,7 +3,8 @@ import { useDispatch, useSelector } from 'react-redux'
 import { logOutAction } from '../actions/userActions'
 import { Link } from 'react-router-dom'
 
-import { Navbar, Nav } from 'react-bootstrap'
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
 
 const Navigation = () => {
 	const username = useSelector(state => state.login.username)

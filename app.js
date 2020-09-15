@@ -11,6 +11,9 @@ const config = require('./utils/config')
 const logger = require('./utils/logger')
 const middleware = require('./utils/middleware')
 const path = require('path')
+const compression = require('compression')
+
+app.use(compression())
 
 mongoose.set('useFindAndModify', false)
 mongoose.set('useCreateIndex', true)
