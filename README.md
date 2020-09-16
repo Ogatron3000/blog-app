@@ -32,7 +32,7 @@ https://young-sands-26516.herokuapp.com/login
 
 ### Testing
 
-* Cypress - B2B testing
+* Cypress - E2E testing
 * Jest - Backend testing
 
 ## Features
